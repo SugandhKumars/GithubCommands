@@ -1,0 +1,29 @@
+
+If you want to push a folder to git hub you and do it by using following commands
+
+First initialise the git using
+
+git init
+
+and then add 
+git add .
+Either  after or BEfore this  you can check the status
+git status 
+
+and then you can commmit the folders
+
+git commit -m "message"
+
+And Now you have to check wheather their is any local repo or not 
+
+git remote -v
+
+ EASY Option :- You have to create a repo to you github account and get that repo link 
+
+ git remote add origin https://github.com/yourname/yourRepo.git
+
+ after that push the origin master
+ git push origin master
+
+ Noe if you go to your created repo then you wil the push file 
+
